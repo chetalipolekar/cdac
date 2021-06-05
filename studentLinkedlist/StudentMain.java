@@ -11,8 +11,8 @@ public class StudentMain {
 		 * Student s = new Student("abc",123,24.'f');
 		 * list.insertAtEnd(s);
 		 * */
-		Student student[]=new Student[2];
-		for(int i=0;i<student.length;i++) {
+		
+		for(int i=0;i<2;i++) {
 			Student s= getStudentData(sc);
 			list.insertAtEnd(s);
 		}
